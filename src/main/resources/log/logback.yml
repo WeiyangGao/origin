@@ -1,0 +1,16 @@
+logback:
+  path: log/app-origin
+  zip:
+    path: log/zip/app-origin
+  maxFileSize: 5MB
+  maxHistory: 15
+  totalSizeCap: 10MB
+  level: INFO
+
+#logback.path=log/app-origin
+#logback.zip.path=log/zip/app-origin
+#logback.maxFileSize=5MB
+#logback.maxHistory=15
+#logback.totalSizeCap=10MB
+##logback.level=DEBUG
+#logback.level=INFO
